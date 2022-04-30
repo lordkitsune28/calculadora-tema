@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Spartan;
+}
+#fondo{
+    width: 100%;
+    height: 100%;
+}
+#calculadora{
+    width: 75%;
+    margin: 10px auto 0px auto;
+}
+#head{
+    width: 85% !important;
+    margin: 10px auto 0px auto;
+    letter-spacing: 6px;
+}
+#head label{
+    letter-spacing: 10px;
+}
+#teclas{
+    width: 81%;
+    border-radius: 10px;
+    margin: 0px auto 0px auto;
+    padding-left: 12px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+#b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8, #b9, #b0, #del, #mas, #menos, #dividir, #multiplicar, #punto{
+    width: 80px;
+    height: 50px;
+    font-size: 25px;
+    margin: 8px;
+    border-radius: 10px;
+}
+#reset, #igual{
+    width: 176px;
+    height: 50px;
+    font-size: 25px;
+    margin: 8px;
+    border-radius: 10px
+}
+.form-label{
+    letter-spacing: 4px;
+}
+#temaselec{
+    width: 50px;
+    height: 20px;
+    border-radius: 15px;
+}
+#tema{
+    background-color: transparent;
+    -webkit-appearance: none;
+    width: 50px;
+    display: block;
+}
+#pantalla{
+    text-align: right;
+}
+#pantallita{
+padding: 30px;
+border-radius: 10px;
+width: 81%;
+margin: 0px auto 0px auto;
+}
+
+.temaf1{
+    background-color: hsl(222, 26%, 31%);
+    color: white;
+}
+
+.rango1[type=range]::-webkit-slider-thumb {
+    margin-top: 3px;
+    height: 15px;
+    width: 15px;
+    border: 0;
+    background: hsl(6, 63%, 50%);
+    border-radius: 20px;
+    -webkit-appearance: none;
+}
+
+.temap1, .temar1, .temats1{
+    background-color: hsl(224, 36%, 15%);
+    
+}
+
+.botonesop1{
+    background-color: hsl(30, 25%, 89%);
+    box-shadow: 0px 3px hsl(28, 16%, 65%);
+    border: transparent;
+}
+
+.botones1{
+    background-color: hsl(225, 21%, 49%);
+    box-shadow: 0px 3px hsl(224, 28%, 35%);
+    color:white;
+    border: transparent;
+}
+
+.igual1{
+    background-color: hsl(6, 63%, 50%);
+    box-shadow: 0px 3px hsl(6, 70%, 34%);
+    color:white;
+    border: transparent;
+}
+
+.temaf2{
+    background-color: hsl(0, 0%, 90%);
+    color: hsl(60, 10%, 19%);
+}
+
+.rango2[type=range]::-webkit-slider-thumb {
+    margin-top: 3px;
+    height: 15px;
+    width: 15px;
+    border: 0;
+    background: hsl(6, 63%, 50%);
+    border-radius: 20px;
+    -webkit-appearance: none;
+}
+
+.temap2, .temar2{
+    background-color: hsl(0, 0%, 93%);
+}
+
+.temats2{
+    background-color: hsl(0, 5%, 81%);
+}
+
+.botonesop2{
+    background-color: hsl(45, 7%, 89%);
+    box-shadow: 0px 3px hsl(35, 11%, 61%);
+    border: transparent;
+}
+
+.botones2{
+    background-color: hsl(185, 42%, 37%);
+    box-shadow: 0px 3px hsl(185, 58%, 25%);
+    color:white;
+    border: transparent;
+}
+
+.igual2{
+    background-color: hsl(25, 98%, 40%);
+    box-shadow: 0px 3px hsl(25, 99%, 27%);
+    color:white;
+    border: transparent;
+}
+
+.temaf3{
+    background-color: hsl(268, 75%, 9%);
+    color: hsl(52, 100%, 62%);
+}
+
+.rango3[type=range]::-webkit-slider-thumb {
+    margin-top: 3px;
+    height: 15px;
+    width: 15px;
+    border: 0;
+    background: hsl(176, 100%, 44%);
+    border-radius: 20px;
+    -webkit-appearance: none;
+}
+
+.temap3, .temar3, .temats3{
+    background-color: hsl(268, 71%, 12%)
+}
+
+.botonesop3{
+    background-color: hsl(281, 89%, 26%);
+    box-shadow: 0px 3px hsl(285, 91%, 52%);
+    border: transparent;
+    color: hsl(52, 100%, 62%);
+}
+
+.botones3{
+    background-color: hsl(268, 47%, 21%);
+    box-shadow: 0px 3px hsl(290, 70%, 36%);
+    color:white;
+    border: transparent;
+}
+
+.igual3{
+    background-color: hsl(176, 100%, 44%);
+    box-shadow: 0px 3px hsl(177, 92%, 70%);
+    color:hsl(198, 20%, 13%);
+    border: transparent;
+}
+
+@media (prefers-color-scheme: light) {
+    .fondo{
+        background-color: hsl(0, 0%, 90%);
+        color: hsl(60, 10%, 19%);
+    }
+    
+    .tema[type=range]::-webkit-slider-thumb {
+        margin-top: 3px;
+        height: 15px;
+        width: 15px;
+        border: 0;
+        background: hsl(6, 63%, 50%);
+        border-radius: 20px;
+        -webkit-appearance: none;
+    }
+    
+    .pantallita, .temaselec{
+        background-color: hsl(0, 0%, 93%);
+        
+    }
+    
+    .teclas{
+        background-color: hsl(0, 5%, 81%);
+    }
+    
+    .b1, .b2, .b3, .b4, .b5, .b6, .b7, .b8, .b9, .b0, .mas, .menos, .dividir, .multiplicar, .punto{
+        background-color: hsl(45, 7%, 89%);
+        box-shadow: 0px 3px hsl(35, 11%, 61%);
+        border: transparent;
+    }
+    
+    .del, .reset{
+        background-color: hsl(185, 42%, 37%);
+        box-shadow: 0px 3px hsl(185, 58%, 25%);
+        color:white;
+        border: transparent;
+    }
+    
+    .igual{
+        background-color: hsl(25, 98%, 40%);
+        box-shadow: 0px 3px hsl(25, 99%, 27%);
+        color:white;
+        border: transparent;
+    }
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    .fondo{
+        background-color: hsl(268, 75%, 9%);
+        color: hsl(52, 100%, 62%);
+    }
+    
+    .tema[type=range]::-webkit-slider-thumb {
+        margin-top: 3px;
+        height: 15px;
+        width: 15px;
+        border: 0;
+        background: hsl(176, 100%, 44%);
+        border-radius: 20px;
+        -webkit-appearance: none;
+    }
+    
+    .pantallita, .temaselec, .teclas{
+        background-color: hsl(268, 71%, 12%)
+    }
+    
+    .b1, .b2, .b3, .b4, .b5, .b6, .b7, .b8, .b9, .b0, .mas, .menos, .dividir, .multiplicar, .punto{
+        background-color: hsl(281, 89%, 26%);
+        box-shadow: 0px 3px hsl(285, 91%, 52%);
+        border: transparent;
+        color: hsl(52, 100%, 62%);
+    }
+    
+    .del, .reset{
+        background-color: hsl(268, 47%, 21%);
+        box-shadow: 0px 3px hsl(290, 70%, 36%);
+        color:white;
+        border: transparent;
+    }
+    
+    .igual{
+        background-color: hsl(176, 100%, 44%);
+        box-shadow: 0px 3px hsl(177, 92%, 70%);
+        color:hsl(198, 20%, 13%);
+        border: transparent;
+    }
+  }
+
+  @media screen and (max-width:720px) {
+      #calculadora{
+          width: 90%;
+          margin:0%;
+      }
+
+      #head{
+          font-size: 11px;
+      }
+
+      #b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8, #b9, #b0, #del, #mas, #menos, #dividir, #multiplicar, #punto{
+        width: 50px;
+        height: 50px;
+        font-size: 15px;
+        margin: 5px;
+        border-radius: 10px;
+    }
+    #reset, #igual{
+        width: 100px;
+        height: 50px;
+        font-size: 25px;
+        margin: 8px;
+        border-radius: 10px
+    }
+  }
+
+  @media screen and (max-width:375px) {
+    #calculadora{
+        width: 100%;
+        margin:0%;
+    }
+
+    #head{
+        font-size: 10px;
+        letter-spacing: 1px;
+        margin: 0px auto 0px auto;
+    }
+    #head label{
+        letter-spacing: 10px;
+        margin-left: 6px;
+    }
+    #head h4, h6{
+        font-size: 10px;
+    }
+
+    #pantallita{
+        padding: 30px;
+        width: 100%;
+        margin: 0px auto 0px auto;
+        }
+
+    #teclas{
+        width: 100%;
+        border-radius: 10px;
+        margin: 0px auto 0px auto;
+        padding-left: 10px;
+        padding-top: 8px;
+        padding-bottom: 15px;
+    }
+
+    #b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8, #b9, #b0, #del, #mas, #menos, #dividir, #multiplicar, #punto{
+      width: 35px;
+      height: 35px;
+      font-size: 15px;
+      margin: 4px;
+      border-radius: 10px;
+  }
+  #del{
+      font-size: 8px;
+  }
+  #reset, #igual{
+      width: 70px;
+      height: 50px;
+      font-size: 15px;
+      margin: 8px;
+      border-radius: 10px
+  }
+}
